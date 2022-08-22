@@ -32,21 +32,25 @@ The game plays 4 quarters, each quarter is played until one team hit the basket.
 
 Each successful hit is 2 points.
 
+The team with the highest total of points after the 4th quarter wins.
+
 # How To Use:
 
-1) Go to defineConsts.hrl file and change the values of the 4 computers according to your computers' names/Ip's.
+1) Go to defineConsts.hrl file and change the values of the 4 computers according to your computers' names/IP's.
 
 Example: 
 
 If runnig on Single computer :
 
-		-define(COMPUTER_NAME1, 'local1@niv-VirtualBox').  --> 'niv-VirtualBox' is the computer's names need to be changed to the new computer's name.
+		-define(COMPUTER_NAME1, 'local1@niv-VirtualBox').  --> 'niv-VirtualBox' is the computer's name need to be changed to the new computer's name.
 
 If runnig on 5 different computers :
 
 		-define(COMPUTER_NAME1, 'local1@niv-VirtualBox').  --> 'niv-VirtualBox' is the computer's names need to be changed to the computer's IP address.
 
 2) Open 5 terminals: 5 on the same computer if you wish to run Single OR 1 on each computer if you wish to run as distributed (can also use ssh command and run 5 on same computer ).
+
+Open the terminal from the files folder.
 
 3) On 4 terminals run the next command : ( x = 1,2,3,4 )
 
