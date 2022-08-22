@@ -10,7 +10,7 @@ Basketball Game - Distributed and Concurrent (5 LAN computers - 4 local client, 
 
 Based 100% erlang code.
 
-# Requirments::
+# Requirments:
 
 Erlang\OTP 22
 
@@ -61,6 +61,7 @@ Distributed:
 4) On the 5th terminal run the next commands:
 
 Single:
+
 		erl -sname mainsrv
 		
 		c(master).
@@ -78,5 +79,5 @@ Distributed:
 
 #### The game should now start - enjoy !
 
-Youtube Link:  https://youtu.be/aX76Xs5duNo
+YouTube Link:  https://youtu.be/aX76Xs5duNo
 
